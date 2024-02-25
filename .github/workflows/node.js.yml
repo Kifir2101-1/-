@@ -1,10 +1,10 @@
 name:CI
 
-on
+on:
   push:
-     branches: ["main"]
+     branches: ["main"];
  puii_request:
-    branches: ["main"]
+    branches: ["main"];
 
 
 jobs:
