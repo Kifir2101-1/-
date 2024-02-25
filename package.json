@@ -1,0 +1,4 @@
+{
+  "main": ".scrip.js",
+  "scripts" : {"build": "node .crip.js"}
+}
