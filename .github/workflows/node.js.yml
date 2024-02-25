@@ -1,0 +1,34 @@
+name:CI
+
+on:
+  push:
+     branches: ["main"]
+ puii_request:
+    branches: ["main"]
+
+
+jobs:
+
+my_build_job:
+  runs-on: ubuntu-latest
+  steps:
+  - uses: acrions/checkout@v3
+  - name: npm install, test and build
+  run: I
+    npm install
+    npm run duild
+
+   - name: Run a one-line script
+  run: echo Hello, worl!
+
+  - name: Run a multi-line script
+   run: I
+   echo Add other actions to build,
+   echo test, and deploy your project.
+
+   -name: Rns JS file for test
+   run: node script.js
+
+
+
+   
